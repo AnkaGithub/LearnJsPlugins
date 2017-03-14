@@ -1,0 +1,53 @@
+.GooFlow_item.item_round {
+    width: 120px;
+    height: auto;
+    min-height: 50px;
+    border-radius: 6px;
+}
+
+.GooFlow_item.item_round table {
+    position: absolute;
+    display: inline-block;
+    width: 50px;
+    height: 100%;
+}
+
+.GooFlow_item.item_round table tbody {
+    display: inline-block;
+    height: 100%;
+}
+
+.GooFlow_item.item_round table tbody tr {
+    display: inline-block;
+    height: 100%;
+}
+
+.GooFlow_item.item_round table tbody tr td {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 100%;
+    text-align: center;
+}
+
+.GooFlow_item.item_round .span {
+    position: static;
+    display: table-cell;
+    box-sizing: border-box;
+    width: 120px;
+    height: 50px;
+    padding: 7px 7px 7px 30px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.GooFlow_item.item_round table tbody tr td i {
+    position: relative;
+    top: calc(50% - 13px);
+    display: inline-block;
+}
+
+.GooFlow div .rs_close {
+    top: 2px;
+    right: 2px;
+}
