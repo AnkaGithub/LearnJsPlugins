@@ -42,7 +42,6 @@ GooFlowMode.prototype.init = function(initParam) {
 
 
 
-
     return pThis;
 }
 
@@ -140,8 +139,6 @@ GooFlowMode.prototype._checkFlowLines = function() {
 
 
 
-
-
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
 var goolflow;
 
@@ -156,5 +153,5 @@ $(document).ready(function() {
     }
     goolflow = new GooFlowMode().init(data);
     console.log(goolflow);
-    
+
 });
